@@ -1,7 +1,5 @@
 package com.hansight.springbootmybatis2;
 
-import com.hansight.spider.cfg.Configuration;
-import com.hansight.springbootmybatis2.common.elasticsearch.util.SpringUtil;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.elasticsearch.rest.RestClientAutoConfiguration;
@@ -18,7 +16,7 @@ public class SpringbootMybatis2Application {
 	}
 
 	public static void main(String[] args) {
-		SpringUtil.setAc(SpringApplication.run(SpringbootMybatis2Application.class, args));
+		SpringApplication.run(SpringbootMybatis2Application.class, args);
 	}
 
 }
